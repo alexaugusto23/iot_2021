@@ -6,7 +6,7 @@ import psutil
 
 def temperatura():
     #Obtém informação da frequ~encia do processador
-    url = "$cat /sys/class/thermal/thermal_zone0/temp"
+    url = "cat /sys/class/thermal/thermal_zone0/temp"
     temp = subprocess.check_output(url, shell=True)
     temp = float(temp) / 1000
     return temp
