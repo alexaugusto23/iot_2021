@@ -1,0 +1,27 @@
+#atualizando reposritorios de pacotes
+sudo apt update
+sudo apt-get update 
+
+#instalando idle
+sudo apt-get install idle3 
+sudo apt-get remove idle
+
+
+
+#instalando code
+sudo apt-get install code 
+Sim, faça o que eu digo!
+
+#consertando pacotes quebrados
+sudo apt --fix-broken install 
+Sim, faça o que eu digo!
+
+sudo apt upgrade --fix-broken install
+sudo apt-get update --fix-missing
+sudo apt-get upgrade gnome-panel
+
+sudo apt update
+sudo apt install git
+git --version
+git config --global user.name "alexaugusto23"
+git config --global user.email "contato.alexaugusto@hotmail.com"
